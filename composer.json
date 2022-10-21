@@ -1,13 +1,15 @@
 {
-    "name": "Webaxones/wax-disable-wordpress-plugins-themes-auto-update",
-    "description": "Disable WordPress plugins and themes auto-update",
-    "license": "GPL-2.0",
-    "authors": [{
-        "name": "Webaxones",
-        "email": "contact@webaxones.com"
-    }],
-    "type": "wordpress-muplugin",
-    "require": {
-        "composer/installers": "~1.0"
-    }
+	"name": "Webaxones/wax-disable-wordpress-plugins-themes-auto-update",
+	"description": "Disable WordPress plugins and themes auto-update",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Webaxones",
+			"email": "contact@webaxones.com"
+		}
+	],
+	"type": "wordpress-muplugin",
+	"require": {
+		"composer/installers": "^1.0 || ^2.0"
+	}
 }
